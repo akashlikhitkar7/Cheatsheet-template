@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 57px;
+}
+
+.logo img{
+    width: 45px; 
+    padding: 0 32px;
+}
+.content{
+    font-family: 'Abril Fatface', serif;
+}
+.container{
+    width: 75vw;
+    margin: auto;
+    font-family: 'Abril Fatface', serif;
+}
+.toolbar-item button{
+    border: 2px solid white !important;
+    border-radius: 6px !important;
+    padding: 1px 10px !important;
+    color: white !important;
+    font-weight: bold !important;
+    cursor: pointer;
+}
